@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/localhost?serverTimezone=UTC
+    username: root
+    password: 1234
+
+#日志输出级别
+logging:
+  level:
+    com.wtlei.spider: debug
