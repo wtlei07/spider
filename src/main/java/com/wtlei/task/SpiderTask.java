@@ -12,7 +12,7 @@ public class SpiderTask {
 
     @Scheduled(cron = "* * * * * *")
     private void getImages(){
-        int num = 11;
+        System.out.println("hello World");
     }
 
 
